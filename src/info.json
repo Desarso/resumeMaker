@@ -1,78 +1,78 @@
 {
-    "name": "Gabriel",
-    "lastName": "Malek Saborio",
-    "email": "malek.gabriel33@gmail.com",
-    "phoneNumber": "(978) 873-0012",
-    "address": "Sacramento, CA 95821",
-    "PortafolioWebsite": "https://gabrielmalek.com",
-    "ProfessionalSummary": "Enthusiastic and highly-motivated Computer Science student with a passion for all things coding and a proven ability to learn quickly. This past few years I have been going deep on web development, an have become proficient in javascript, Typescripts, and related web technologies for the front end, my prefered framework is solidjs. I have continously expanded my skill set and love learning new things. My favorite backend language is go, since it is fairly straighforward to learn and allows me to build really performant and small backends, I also have experience with nodejs, and nextjs, as well as flutter for mobile app development. Furthermore, I have some experience with aws using ec2 instances, as well as setting up my own server in ubuntu using nginx and getting ssl certification with certbot. I have some experience with lower level programming languages, I built a chessBot engine in c that used bit boards, this project was what prompted me to build my online chessUI.",
-    "Education": [
-        {
-            "name": "California State University, Sacramento",
-            "location": "Sacramento, CA",
-            "graduationDate": "Expected in 05/2024",
-            "degreeType": "Bachelor of Science",
-            "major": "Computer Science",
-            "summary": "I am currently studying towards a Bachelor's degree in Computer Science at Sacramento State, where I have been honing my skills in web development and programming. Through my coursework and extracurricular activities, I have gained experience in a variety of programming languages, listed below. I am eager to apply my skills and knowledge to a career in front-end web development."
-        }
+  "name": "Gabriel",
+  "lastName": "Malek Saborio",
+  "email": "malek.gabriel33@gmail.com",
+  "phoneNumber": "(978) 873-0012",
+  "address": "Sacramento, CA 95821",
+  "PortafolioWebsite": "https://gabrielmalek.com",
+  "ProfessionalSummary": "Enthusiastic and highly motivated Computer Science student with a passion for all things coding and a proven ability to learn quickly. This past few years I have been going deep into web development and have become proficient in javascript, Typescripts, and related web technologies for the front end, my preferred framework is Solidjs. I have continuously expanded my skill set and love learning new things. My favorite backend language is Go, since it is fairly straightforward to learn and allows me to build really performant and small backends, I also have experience with Nodejs, and Nextjs, as well as Flutter for mobile app development. Furthermore, I have some experience with AWS using ec2 instances, as well as setting up my own server in Ubuntu using nginx and getting SSL certification with Certbot. I have some experience with lower-level programming languages, I built a chessBot engine in c that used bit boards, and this project was what prompted me to build my online ChessUI.",
+  "Education": [
+    {
+      "name": "California State University, Sacramento",
+      "location": "Sacramento, CA",
+      "graduationDate": "Expected in 05/2024",
+      "degreeType": "Bachelor of Science",
+      "major": "Computer Science",
+      "summary": "I am currently studying towards a Bachelor's degree in Computer Science at Sacramento State, where I have been honing my skills in web development and programming. Through my coursework and extracurricular activities, I have gained experience in a variety of programming languages, listed below. I am eager to apply my skills and knowledge to a career in front-end web development."
+    }
+  ],
+  "skills": {
+    "firstRow": [
+      "ReactJS",
+      "NextJS",
+      "TailwindsCSS",
+      "Graphql",
+      "Python",
+      "TypeScript",
+      "Javascript",
+      "Golang",
+      "AWS",
+      "NodeJS",
+      "Solidjs"
     ],
-    "skills": {
-        "firstRow": [
-            "ReactJS",
-            "NextJS",
-            "TailwindsCSS",
-            "Graphql",
-            "Python",
-            "TypeScript",
-            "Javascript",
-            "Golang",
-            "AWS",
-            "NodeJS",
-            "Solidjs"
-        ],
-        "secondRod": [
-            "Flutter",
-            "Dart",
-            "C",
-            "C++",
-            "Java",
-            "HTML",
-            "CSS",
-            "SQL",
-            "MongoDB",
-            "Git",
-            "Linux",
-            "Docker"
-        ]
-    },
-    "professionalExperience": [
-        {
-            "Title": "Tech Repair",
-            "Company": "Ubreakifix",
-            "Location": "1537 Howe Ave #120, Sacramento, CA",
-            "StartDate": "08/2021",
-            "EndDate": "05/2022",
-            "bulletPoints": [
-                "Repaired various electronic devices with attention to detail and quality.",
-                "Provided exceptional customer service and technical support.",
-                "Conducted hardware and software upgrades to improve device performance.",
-                "Collaborated with team members to meet daily repair quotas and exceed customer expectations.",
-                "Diagnosed and troubleshooted issues to provide effective solutions.",
-                "Communicated repair status to customers.",
-                "Conducted sales and upselling of products and services."
-            ]
-        }
-    ],
-    "languages": [
-        {
-            "name": "English",
-            "level": "Native or Bilingual",
-            "number": 5
-        },
-        {
-            "name": "Spanish",
-            "level": "Native or Bilingual",
-            "number": 5
-        }
+    "secondRow": [
+      "Flutter",
+      "Dart",
+      "C",
+      "C++",
+      "Java",
+      "HTML",
+      "CSS",
+      "SQL",
+      "MongoDB",
+      "Git",
+      "Linux",
+      "Docker"
     ]
+  },
+  "professionalExperience": [
+    {
+      "Title": "Tech Repair",
+      "Company": "Ubreakifix",
+      "Location": "1537 Howe Ave #120, Sacramento, CA",
+      "StartDate": "08/2021",
+      "EndDate": "05/2022",
+      "bulletPoints": [
+        "Repaired various electronic devices with attention to detail and quality.",
+        "Provided exceptional customer service and technical support.",
+        "Conducted hardware and software upgrades to improve device performance.",
+        "Collaborated with team members to meet daily repair quotas and exceed customer expectations.",
+        "Diagnosed and troubleshooted issues to provide effective solutions.",
+        "Communicated repair status to customers.",
+        "Conducted sales and upselling of products and services."
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Native or Bilingual",
+      "number": 5
+    },
+    {
+      "name": "Spanish",
+      "level": "Native or Bilingual",
+      "number": 5
+    }
+  ]
 }

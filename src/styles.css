@@ -8,16 +8,65 @@ input[type=text] {
   -moz-appearance: none;
   border: none;
   padding: none;
-  width: fit-content;
+  max-width: 100%;
+  width: 100% !important;
+}
+
+.inlineContent {
+  display: flex;
+  justify-content: start;
+}
+.inlineContent span {
+  margin-right: 150px;
+}
+
+.span {
+  display: flex;
+  width: calc(100% - 200px);
+}
+
+.flex {
+  display: flex;
+  height: 100%;
+}
+
+.jobBullets {
+  margin-bottom: 5px;
+}
+
+.paragraph {
   width: 100%;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: rgb(52, 59, 64);
+  line-height: 20px;
+}
+
+.section ul {
+  margin: 0px;
 }
 
 .document {
+  margin-top: 20px;
   width: 630px;
   padding-left: 36px;
   padding-right: 36px;
   min-height: 891px;
+  height: fit-content;
   background-color: white;
+  padding-bottom: 40px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.degreeType {
+  font-weight: bold;
+  width: calc(100% - 370px);
 }
 
 .contact-info {
@@ -25,6 +74,13 @@ input[type=text] {
   line-height: 19px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(52, 59, 64);
+}
+
+.basicText {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: rgb(52, 59, 64);
+  line-height: 19px;
 }
 
 .name {
@@ -52,5 +108,46 @@ input[type=text] {
 .section {
   padding-left: 23px;
   margin-left: 19px;
-  padding-top: 23px;
+  padding-top: 30px;
+  margin-bottom: 10px;
 }
+.section.section-heading {
+  position: relative;
+  height: fit-content;
+}
+.section .border {
+  position: absolute;
+  top: 52px;
+  left: 0px;
+  border-left: 1px solid rgb(52, 59, 64);
+}
+.section .ball {
+  width: 9px;
+  height: 9px;
+  top: 42px;
+  left: -4.7px;
+  position: absolute;
+  border: 1px solid rgb(52, 59, 64);
+  border-radius: 100%;
+}
+
+.bullet-point {
+  list-style-position: inside;
+  display: list-item;
+  font-family: Verdana;
+  font-size: 14px;
+}
+
+.content_holder {
+  padding-top: 10px;
+}
+
+.heading {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva;
+  font-weight: bold;
+  color: rgb(52, 59, 64);
+  font-size: 15px;
+  line-height: 32px;
+}/*# sourceMappingURL=styles.css.map */
